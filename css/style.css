@@ -24,7 +24,7 @@ nav a.navbar-brand{
     display: inline-block;
     position: absolute;
     float: left;
-    object-fit: contain;
+    
 }
 
 nav a span{
