@@ -69,8 +69,22 @@ nav ul li a.nav-link{
     text-align:right;
     color: #ffffff;
 }
+nav button{
+    /* background: #000; */
+    position: absolute;
+    right: 0;
+    top:0;
+}
+nav button span{
+    margin:0 0 5px 0;
+    padding: 0;
+    display: block;
+    width:30px;
+    height: 2px;
+    background:#fff;
 
 
+}
 
 
 /*matn kiritilgan qismi*/
