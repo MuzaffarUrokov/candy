@@ -400,11 +400,21 @@ nav a span{
            
 }
    
-nav button i{
-               position: absolute;
-               top: 0;
-               right:20px;
-               font-size: 50px;
+nav button{
+    /* background: #000; */
+    position: absolute;
+    right:0px;
+    top:0;
+}
+nav button span{
+    margin:0 0 5px 0;
+    padding: 0;
+    display: block;
+    width:30px;
+    height: 2px;
+    background:#000;
+
+
 }
        
 nav ul.navbar-nav{   
@@ -561,13 +571,21 @@ nav a span{
         
 }
 
-nav button i{
-            width: 20%;;
-            position: absolute;
-            top: 20px;
-            right:-120px;
-            color:black;
-            font-size: 50px;    
+nav button{
+    /* background: #000; */
+    position: absolute;
+    right:-170px;
+    top:0;
+}
+nav button span{
+    margin:0 0 5px 0;
+    padding: 0;
+    display: block;
+    width:30px;
+    height: 2px;
+    background:#000;
+
+
 }
     
 nav ul.navbar-nav{   
