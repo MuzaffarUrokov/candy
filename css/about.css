@@ -370,13 +370,23 @@ nav a span{
     font-size: 40px;
 }
 
-nav button i{
+nav button{
+    /* background: #000; */
     position: absolute;
-    top: 0;
     right:0;
-    float:right;
-    font-size: 50px;
+    top:0;
 }
+nav button span{
+    margin:0 0 5px 0;
+    padding: 0;
+    display: block;
+    width:30px;
+    height: 2px;
+    background:#000;
+
+
+}
+
     
 nav ul.navbar-nav{              
     height:auto;
@@ -391,7 +401,7 @@ nav ul.navbar-nav{
 }
         
 nav ul li a.nav-link{
-    font-size: 25px;;
+    font-size: 50px;
     display:block;
     text-align:center;
     color: white;
@@ -506,14 +516,25 @@ nav a span{
         font-size: 40px;
 }
 
-nav button i{
-            position: absolute;
-           top:0;
-           right:-150px;
-           
-            float:right;
-            font-size: 50px;
+nav button{
+    /* background: #000; */
+    position: absolute;
+    right:-150px;
+    top:0;
 }
+nav button span{
+    margin:0 0 5px 0;
+    padding: 0;
+    display: block;
+    width:30px;
+    height: 2px;
+    background:#000;
+
+
+}
+
+
+
     
 nav ul.navbar-nav{              
             height:auto;
@@ -527,11 +548,12 @@ nav ul.navbar-nav{
 }
         
 nav ul li a.nav-link{
-           font-size: 25px;;
+            font-size: 50px;
            display:block;
            text-align:center;
            color:black;
 }
+
 
 section{
    margin:70px 0 0 0;
